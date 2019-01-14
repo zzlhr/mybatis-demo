@@ -7,5 +7,6 @@ import tk.mybatis.mapper.common.MySqlMapper;
 
 
 @org.apache.ibatis.annotations.Mapper
+
 public interface UserDao extends Mapper<User>, MySqlMapper<User> {
 }
